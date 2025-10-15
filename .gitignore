@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+
+# Virtual environments
+# Common names: .venv, venv, env, my_env (local in this repo)
+.venv/
+venv/
+env/
+my_env/
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.ipynb
+
+# Data, results, and model checkpoints (do not store large binary files in git)
+/data/
+/results/
+*.ckpt
+*.pth
+
+# Logs and local config
+*.log
+local_settings.py
+*.local
+
+# IDE/editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Linux
+*~
+
+# Editor swap files
+*.swp
+*.swo
+
+# Python Lint/cache
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pytest_cache/
+
+# Coverage and reports
+coverage.xml
+nosetests.xml
+
+# Secrets and env files
+.env
+.envrc
+secrets.yaml
+credentials.json
+
+# Misc
+*.bak
+*.tmp
+
+# Ensure notebooks output and large training artifacts are not committed
+/.ipynb_checkpoints/
+/checkpoints/
